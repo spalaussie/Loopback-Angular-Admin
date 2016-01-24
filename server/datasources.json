@@ -1,0 +1,28 @@
+{
+  "db": {
+    "host": "localhost",
+    "database": "rockjar",
+    "name": "db",
+    "connector": "mysql",
+    "user": "root"
+  },
+  "emailDs": {
+    "name": "emailDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "spalaussie@gmail.com",
+          "pass": "georgian98pal!"
+        }
+      }
+    ]
+  }
+}
